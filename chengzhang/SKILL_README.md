@@ -2,11 +2,11 @@
 
 ## 当前交付版本
 
-**v0.1.5 · 2026-10-18**
+**v0.1.6 · 2026-10-18**
 
 - GitHub 安装入口：`npx skills add lee-mie/chengzhang-skills --skill chengzhang`；手动完整包见 [Releases](https://github.com/lee-mie/chengzhang-skills/releases)。
 - 网页可自定义排版并保存默认模板，Agent 预览和上传时复用；个人模板权益以网站说明为准。
-- 提供从生成图片、编写标题文案到保存贴图草稿的工作流，需要所连接服务支持贴图接口；默认站贴图入口当前尚未开放（2026-10-18）。
+- 支持从生成图片、编写标题文案到保存贴图草稿的工作流；[正式站贴图页面](https://chengzhang.page/pictures) 已开放，支持多图拖入和编号调序。
 - 新增贴图草稿：准确保留图片顺序、标题和纯文本文案；使用 `examples/publish_pictures.py` 准备并提交请求。
 - 默认连接成章，支持 Mac／Windows 自动读取本机配置；首次使用由 Agent 创建空配置并协助连接。
 - 自定义封面统一使用 `cover_image`，提交前拒绝错误字段及空封面对象。

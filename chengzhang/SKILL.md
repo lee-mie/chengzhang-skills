@@ -96,7 +96,7 @@ python3 examples/publish.py publish confirmed.json
 ## 贴图草稿（独立于 Markdown）
 
 用户要求发布一组贴图时，使用 `examples/publish_pictures.py`，不要转换成 Markdown 文章。
-复用 `examples/publish.py setup/check` 的本机连接配置。贴图需所连接服务支持 `POST /api/publish/pictures`；默认站的贴图入口当前尚未开放（2026-10-18），不要承诺可用。支持该功能的服务提供独立 `/pictures` 网页。接口不支持或返回404/405时停止并说明原因，不改用文章接口代替，也不反复提交。
+复用 `examples/publish.py setup/check` 的本机连接配置。贴图需所连接服务支持 `POST /api/publish/pictures`；正式站独立入口为 [贴图页面](https://chengzhang.page/pictures)。接口不支持或返回404/405时停止并说明原因，不改用文章接口代替，也不反复提交。
 
 1. 建立 UTF-8 JSON：`{"title":"标题","content":"纯文本文案，可换行","images":["/absolute/01.png","/absolute/02.png"]}`。
    `images` 数组就是最终顺序，第一张为封面；1–20 张 JPG/PNG，每张 ≤1 MB。标题必填，≤64 字；文案可空，≤1000 字。
