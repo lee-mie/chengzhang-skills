@@ -1,0 +1,8 @@
+{
+  "article_content": "# 含本地图片的测试\n\n下面是文章内嵌的一张本地图片：\n\n![示例图片](asset://image1)\n\n正文继续。",
+  "inline_images": {
+    "image1": "/absolute/path/to/image1.png"
+  },
+  "title": "测试本地正文图片",
+  "format_content": true
+}
